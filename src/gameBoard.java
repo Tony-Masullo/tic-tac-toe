@@ -16,4 +16,8 @@ public class gameBoard {
             System.out.println("");
         }
     }
+
+    public void updateBoard(int row, int col, String piece){
+        this.theBoard[row][col] = piece;
+    }
 }
